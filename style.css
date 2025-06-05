@@ -66,3 +66,14 @@ body {
 .tool-card a:hover {
     background-color: #2d3748;
 }
+/* This styles the new logo inside our card */
+.tool-logo {
+    width: 60px; /* Makes the logo a nice, consistent size */
+    height: 60px;
+    border-radius: 8px; /* Rounds the corners of the logo */
+    margin-bottom: 1rem; /* Adds some space below the logo */
+    object-fit: contain; /* Makes sure the logo fits nicely without stretching */
+    background-color: #f8fafc; /* Adds a light background for transparent logos */
+    padding: 5px;
+    border: 1px solid #e2e8f0;
+}

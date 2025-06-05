@@ -1,11 +1,13 @@
 [
   {
     "name": "Midjourney",
+    "logoUrl": "https://logo.clearbit.com/midjourney.com",
     "url": "https://www.midjourney.com/",
     "description": "An independent research lab that produces an artificial intelligence program that creates images from textual descriptions."
   },
   {
     "name": "ChatGPT",
+    "logoUrl": "https://logo.clearbit.com/openai.com",
     "url": "https://chat.openai.com/",
     "description": "A chatbot developed by OpenAI. It can write essays, code, answer questions, and much more."
   }
