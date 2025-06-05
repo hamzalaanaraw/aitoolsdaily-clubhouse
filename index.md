@@ -4,14 +4,16 @@ title: Welcome to AI Tools Daily!
 ---
 
 <div class="container">
-    <h1 class="main-title">AI Tools Daily </h1>
+    <h1 class="main-title">AI Tools Daily Clubhouse</h1>
 
-    <div class="tool-card">
-    <img src="{{ tool.logoUrl }}" alt="{{ tool.name }} Logo" class="tool-logo">
-    <h2>{{ tool.name }}</h2>
-    <p>{{ tool.description }}</p>
-    <p><a href="{{ tool.url }}" target="_blank">Visit Site</a></p>
-</div>
+    <div class="tools-grid">
+        {% for tool in tools %}
+        <div class="tool-card">
+            <img src="{{ tool.logoUrl }}" alt="{{ tool.name }} Logo" class="tool-logo">
+            <h2>{{ tool.name }}</h2>
+            <p>{{ tool.description }}</p>
+            <p><a href="{{ tool.url }}" target="_blank">Visit Site</a></p>
+        </div>
         {% endfor %}
     </div>
 </div>
